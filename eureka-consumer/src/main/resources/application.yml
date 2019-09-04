@@ -13,7 +13,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http:http://35.198.23.45:9091/eureka/
+      defaultZone: http://35.198.23.45:9091/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 3000
 spring:
