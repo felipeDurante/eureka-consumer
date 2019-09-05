@@ -18,7 +18,8 @@ public class TesteController {
 	@GetMapping(value = "/getServiceName/{serviceName}")
 	public URI coco(@PathVariable("serviceName") String serviceName) {
 
-		System.out.println(service.getInstance(serviceName));
+		System.out.println(serviceName);
+		System.out.println("get serice nome" + service.getInstance(serviceName));
 		return service.getInstance(serviceName);
 	}
 }
